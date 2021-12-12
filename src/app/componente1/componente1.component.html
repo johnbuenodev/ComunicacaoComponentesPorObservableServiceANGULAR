@@ -1,0 +1,5 @@
+<div style="display: flex;flex-direction: column; width: 350px; height: auto;background: steelblue;justify-content: center;align-items: center;">
+    <ul style="list-style: none;">
+        <li style="border: 2px teal solid; margin:8px auto; padding:8px; background: white;" *ngFor="let reg of registros" (click)="acessandoRegistro(reg)">{{reg.id}} - {{reg.name}}</li>
+    </ul>
+</div>
